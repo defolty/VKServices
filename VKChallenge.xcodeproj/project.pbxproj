@@ -43,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB61100E28AD6AF300B90A18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBE6FFC4287F1C1E00D8CC82 /* AppDelegate.swift */,
+				FBE6FFCF287F1C1F00D8CC82 /* LaunchScreen.storyboard */,
+				FBE6FFCD287F1C1F00D8CC82 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FBE6FFB8287F1C1E00D8CC82 = {
 			isa = PBXGroup;
 			children = (
@@ -63,9 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				FBE6FFD2287F1C1F00D8CC82 /* Info.plist */,
-				FBE6FFC4287F1C1E00D8CC82 /* AppDelegate.swift */,
-				FBE6FFCF287F1C1F00D8CC82 /* LaunchScreen.storyboard */,
-				FBE6FFCD287F1C1F00D8CC82 /* Assets.xcassets */,
+				FB61100E28AD6AF300B90A18 /* Supporting Files */,
 				FBE6FFE9287F6CAD00D8CC82 /* Network */,
 				FBE6FFE6287F6C8500D8CC82 /* Views */,
 				FBE6FFE7287F6C9400D8CC82 /* Model */,

@@ -7,8 +7,7 @@
  
 import UIKit
 
-class AlertManager {
-    
+class AlertManager { 
     static func showAlertError(text: String) -> UIAlertController {
         let alert = UIAlertController(title: nil, message: text, preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default) { (action) in }

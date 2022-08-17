@@ -77,7 +77,7 @@ class TableViewCell: UITableViewCell {
     
     // MARK: - Constraints
     
-    func setupConstraints() {
+    private func setupConstraints() {
         addSubview(cellView)
         self.selectionStyle = .none
         
